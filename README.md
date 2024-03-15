@@ -12,7 +12,7 @@ Neste repositório consta alguns assuntos tratados no curso realizado em Bootcam
 
 | Aula | Tema | Materiais de Apoio |
 |------|------|-------------------|
-| 01 | Visão Geral do Curso e Ferramentas | Botão Referência |
+| 01 | Visão Geral do Curso e Ferramentas | [Clique Aqui](https://github.com/suellen-oliveira-prog/DIO-versionamento-Git-e-GitHub/blob/main/aula-01/aula-01.md) |
 | 02 | Instalação, Configuração e Autenticação | Botão Referência |
 | 03 | Primeiros Passos com Git e GitHub | Botão Referência |
 | 04 | Dicas e Materiais de Apoio | Botão Referência |

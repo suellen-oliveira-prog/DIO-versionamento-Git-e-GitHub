@@ -20,4 +20,4 @@ Sistema de Controle de Versão Distribuído.
 ### GitHub
 Plataforma de hospedagem de código para controle de versão com Git, e colaboração.
 
-![GitHub](https://cdn-icons-png.flaticon.com/512/25/25231.png)
+![GitHub](https://enotas.com.br/blog/wp-content/uploads/2021/02/GitHub.jpg)
