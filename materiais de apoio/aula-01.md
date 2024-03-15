@@ -1,5 +1,5 @@
 
-# 📕 DIO - Versionsamento de Código no Git e GitHub
+# 📕 DIO - Versionamento de Código no Git e GitHub
 
 ## Visão Geral do Curso e Ferramentas
 
