@@ -1,5 +1,5 @@
 
-# 📕 DIO - Versionsamento de Código no Git e GitHub
+# 📕 DIO - Versionamento de Código no Git e GitHub
 
 Neste repositório consta alguns assuntos tratados no curso realizado em Bootcamp da DIO com tema de **Versionamento de código com Git e GitHub**, e apresentado pela Desenvolvedora Front-End **Elidiana Andrade**.
 
