@@ -1,5 +1,5 @@
 
-# 📕 DIO - Versionsamento de Código no Git e GitHub
+# 📕 DIO - Versionamento de Código no Git e GitHub
 
 ## Visão Geral do Curso e Ferramentas
 
@@ -20,4 +20,4 @@ Sistema de Controle de Versão Distribuído.
 ### GitHub
 Plataforma de hospedagem de código para controle de versão com Git, e colaboração.
 
-![GitHub](https://i.pinimg.com/originals/b1/5e/ed/b15eedbdafbbdbca3249e3942f4faf3b.png)
+![GitHub](https://cdn-icons-png.flaticon.com/256/25/25231.png)
