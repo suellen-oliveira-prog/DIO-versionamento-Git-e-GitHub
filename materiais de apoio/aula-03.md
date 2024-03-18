@@ -1,23 +1,47 @@
 
-# 📕 DIO - Versionsamento de Código no Git e GitHub
+# 📕 DIO - Versionamento de Código no Git e GitHub
 
-## Visão Geral do Curso e Ferramentas
+## Primeiros Passos com Git e GitHub
 
-### Sistemas de Controle de Versão
+### Criando e Clonando Repositórios
+Existem duas formas de obter um repositório Git na sua máquina:
+1. Transformando um diretório local que não está sob controle de versão, num repositório Git;
+2. Clonando um repositório Git existente.
 
-Os Sistemas de Controle de Versão (Version Control System - VCS), são softwares que controlam as versões de um arquivo ao longo do tempo.
+#### Criando um Repositório Local
 
-| Sistemas | Descrição | Exemplos|
-|----------|-----------|---------|
-|Centralizado (CVCS) | Um único servidor dispõe dos arquivos de controle de versão. | ![CVS](https://img.shields.io/badge/CVS-000?style=for-the-badge&logo=cvs) ![Subversion](https://img.shields.io/badge/Subversion-000?style=for-the-badge&logo=subversion)|
-|Distribuído (DVCS)| Duplica localmente o repositório completo, incluindo o histórico de versões.| ![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git) ![Mercurial](https://img.shields.io/badge/Mercurial-000?style=for-the-badge&logo=mercurial)|
+Acesse a pasta que deseja transformar em um repositório Git pelo terminal ou clique no atalho em “Git Bash Here”:
+1. Inicialize um repositório Git no diretório escolhido:
+```bash
+$ git init
+```
+2. Conecte o repositório local com o repositório remoto:
+```bash
+$ git remote add origin https://github.com/username/nome-do-repositorio.git
+```
 
-### Git
-Sistema de Controle de Versão Distribuído.
+### Desfazendo Alterações no Repositório Local
 
-![Git](https://user-images.githubusercontent.com/97471199/230219597-961612d8-c2a4-4a76-80c8-391e54c056b6.png)
+#### Como alterar a mensagem do último commit
 
-### GitHub
-Plataforma de hospedagem de código para controle de versão com Git, e colaboração.
+```bash
+$ git commit --amend
+```
+#### Alterando a mensagem sem abrir o editor:
+```bash
+$ git commit --amend –m"nova mensagem"
+```
 
-![GitHub](https://enotas.com.br/blog/wp-content/uploads/2021/02/GitHub.jpg)
+#### Como desfazer um commit
+```bash
+$ git reset --soft
+```
+```bash
+$ git reset
+```
+```bash
+$ git reset --mixed
+```
+```bash
+$ git reset --hard
+```
