@@ -1,23 +1,29 @@
 
-# 📕 DIO - Versionsamento de Código no Git e GitHub
+# 📕 DIO - Versionamento de Código no Git e GitHub
 
-## Visão Geral do Curso e Ferramentas
+## Dicas e Materiais de Apoio
 
-### Sistemas de Controle de Versão
+### Git Aliases: Adicionando apelidos para os comandos do Git
+Exemplo: Criando um alias para o comando `status`:
+```bash
+$ git config --global alias.st status
+```
 
-Os Sistemas de Controle de Versão (Version Control System - VCS), são softwares que controlam as versões de um arquivo ao longo do tempo.
+Agora podemos utilizar o comando `git st` para acionar o `git status`.
 
-| Sistemas | Descrição | Exemplos|
-|----------|-----------|---------|
-|Centralizado (CVCS) | Um único servidor dispõe dos arquivos de controle de versão. | ![CVS](https://img.shields.io/badge/CVS-000?style=for-the-badge&logo=cvs) ![Subversion](https://img.shields.io/badge/Subversion-000?style=for-the-badge&logo=subversion)|
-|Distribuído (DVCS)| Duplica localmente o repositório completo, incluindo o histórico de versões.| ![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git) ![Mercurial](https://img.shields.io/badge/Mercurial-000?style=for-the-badge&logo=mercurial)|
 
-### Git
-Sistema de Controle de Versão Distribuído.
+Para remover o alias que criamos, utilizamos o seguinte comando:
+```bash
+$ git config --global --unset alias.st
+```
 
-![Git](https://user-images.githubusercontent.com/97471199/230219597-961612d8-c2a4-4a76-80c8-391e54c056b6.png)
-
-### GitHub
-Plataforma de hospedagem de código para controle de versão com Git, e colaboração.
-
-![GitHub](https://enotas.com.br/blog/wp-content/uploads/2021/02/GitHub.jpg)
+### Para saber mais
+- Tech Talk: Linus Torvalds on git: [https://youtu.be/4XpnKHJAok8](https://youtu.be/4XpnKHJAok8)
+- ProGit: [https://git-scm.com/book/en/v2](https://git-scm.com/book/en/v2)
+- GitFluence: [https://gitfluence.com/](https://gitfluence.com/)
+- GitIgnore: [https://www.toptal.com/developers/gitignore/](https://www.toptal.com/developers/gitignore/)
+- Chocolatey: [https://community.chocolatey.org/packages/git](https://community.chocolatey.org/packages/git)
+- Markdown: [https://docs.github.com/pt/get-started/writing-on-github](https://docs.github.com/pt/get-started/writing-on-github)
+- My Octocat: [https://myoctocat.com/](https://myoctocat.com/)
+- GitHub Desktop: [https://desktop.github.com/](https://desktop.github.com/)
+- GitHub Pages: [https://docs.github.com/en/pages/getting-started-with-github-pages](https://docs.github.com/en/pages/getting-started-with-github-pages)
