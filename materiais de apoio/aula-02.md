@@ -1,23 +1,47 @@
 
 # 📕 DIO - Versionsamento de Código no Git e GitHub
 
-## Visão Geral do Curso e Ferramentas
+## Instalação, Configuração e Autenticação
 
-### Sistemas de Controle de Versão
+### Instalando o Git no Windows
+- Acesse < https://git-scm.com/download/win >;
+- Faça o download do instalador e execute;
+- Aceite a licença e clique em “Next”, e siga configurando como desejar¹ e clicando em “Next”;
+- Finalize clicando em “Install”, e “Finish”.
+¹Em "Select Components“, deixe as opções “Git Bash Here” e “Git GUI Here” marcadas.
 
-Os Sistemas de Controle de Versão (Version Control System - VCS), são softwares que controlam as versões de um arquivo ao longo do tempo.
+### Instalando o Git no Linux (Ubuntu)
+- Confira a doc.: < https://git-scm.com/download/linux >;
+- Instale a última versão estável do Git:
+```bash
+# add-apt-repository ppa:git-core/ppa
+```
+```bash
+# apt update
+```
+```bash
+# apt install git
+```
 
-| Sistemas | Descrição | Exemplos|
-|----------|-----------|---------|
-|Centralizado (CVCS) | Um único servidor dispõe dos arquivos de controle de versão. | ![CVS](https://img.shields.io/badge/CVS-000?style=for-the-badge&logo=cvs) ![Subversion](https://img.shields.io/badge/Subversion-000?style=for-the-badge&logo=subversion)|
-|Distribuído (DVCS)| Duplica localmente o repositório completo, incluindo o histórico de versões.| ![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git) ![Mercurial](https://img.shields.io/badge/Mercurial-000?style=for-the-badge&logo=mercurial)|
+### Instalando o Git no macOS
+- Confira a doc.: < https://git-scm.com/download/mac>;
+- Instale o Homebrew: < https://brew.sh/ >;
+- Instale o Git:
+```bash
+$ brew install git
+```
 
-### Git
-Sistema de Controle de Versão Distribuído.
+### Configurando o Git
+```bash
+$ git config --list
+```
 
-![Git](https://user-images.githubusercontent.com/97471199/230219597-961612d8-c2a4-4a76-80c8-391e54c056b6.png)
-
-### GitHub
-Plataforma de hospedagem de código para controle de versão com Git, e colaboração.
-
-![GitHub](https://enotas.com.br/blog/wp-content/uploads/2021/02/GitHub.jpg)
+#### Configurando seu nome de usuário e e-mail (globalmente):
+```bash
+$ git config --global user.name "Nome Sobrenome"
+$ git config --global user.email seuemail@email.com
+```
+#### Configurando o nome da Branch Padrão:
+```bash
+$ git config --global init.defaultBranch main
+```
